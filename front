@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemeBuzz MVX Test</title>
+    <script src="https://unpkg.com/@multiversx/sdk-core@13.17.2/out/index.js"></script>
+    <script src="https://unpkg.com/@multiversx/sdk-wallet@4.6.0/out/wallet.js"></script>
+    <script src="https://unpkg.com/@multiversx/sdk-extension-provider@3.0.0/out/index.js"></script>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Meme font vibes */
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJElEQVQYV2NkYGD4z8DAwMiAAwgLGyO4cOGCSgYGBgYqAwMDAwBtUA3nQj7xbgAAAABJRU5ErkJggg==') repeat, /* Tiny pixel noise */
+                  linear-gradient(45deg, #ff00ff, #00ffff, #ffff00, #ff0000); /* Wild gradient */
+            color: #000;
+            text-align: center;
+            text-shadow: 1px 1px 2px #fff; /* White outline for readability */
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), 0 0 20px rgba(255, 0, 255, 0.5); /* Neon glow */
+            border: 3px solid #000; /* Bold border
